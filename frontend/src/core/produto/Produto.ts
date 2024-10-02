@@ -9,7 +9,7 @@ interface Produto extends Precificavel {
   modelo: string;
   imagem: string;
   nota: number;
-  reviewVideo: string;
+  videoReview: string;
   tags: string[];
   especificacoes: Especificacoes;
 }
