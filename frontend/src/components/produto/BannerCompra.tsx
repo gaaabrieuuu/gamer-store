@@ -3,7 +3,7 @@
 import { Moeda, Produto } from "@/core";
 import useParcelamento from "@/data/hooks/useParcelamento";
 import { IconCreditCard, IconShoppingCart } from "@tabler/icons-react";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
 export interface BannerCompraProps {
   produto: Produto;
